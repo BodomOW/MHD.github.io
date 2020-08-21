@@ -1,0 +1,943 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url();
+	overflow-x: hidden;
+	/*background-attachment: fixed;
+	background-position: center;*/
+	background-color: #F7F7F7;
+}
+
+
+.container{
+	text-align: center;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+/*Header*/
+header{
+	/*position: absolute;*/
+	top: 0;
+	left: 0;
+	padding: 0 100px;
+	background: white;
+	width: 100%;
+	box-sizing: border-box;
+	z-index: 2;
+}
+
+header .logo{
+	color: #00155C;
+	height: 60px;
+	line-height: 70px;
+	padding: 5px 0 5px 0;
+	font-size: 24px;
+	float: left;
+	font-weight: bold;
+	/*padding: 10px 0 10px 0;*/
+}
+
+header nav{
+	float: right;
+}
+
+header nav ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+header nav ul li{
+	list-style: none;
+	position: relative;
+}
+
+header nav ul li.sub-menu:before{
+	content: '\f0d7'; /*Lo consegui en Fontawesome.com*/
+	font-family: fontAwesome;
+	position: absolute;
+	line-height: 70px;
+	color: #00155C;
+	right: 5px;
+}
+
+header nav ul li.active.sub-menu:before{
+	content: '\f0d8';
+}
+
+header nav ul li ul{
+	position: absolute;
+	left: 0;
+	background: #333;
+	display: none;
+}
+
+header nav ul li.active ul{
+	display: block;
+	background: #FDFDFD;
+}
+
+header nav ul li ul li{
+	display: block;
+	width: 200px;
+}
+
+header nav ul li a{
+	height: 70px;
+	line-height: 70px;
+	padding: 0 20px;
+	color: #00155C;
+	text-decoration: none;
+	display: block;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active{
+	color: #00155C;
+	background: #B1BEE8;
+	/*transition: all 0.1s ease 0s;*/
+}
+
+.menu-toggle{
+	color: #00155C;
+	float: right;
+	line-height: 70px;
+	font-size: 24px;
+	cursor: pointer;
+	display: none;
+}
+
+/*Banner*/
+		.containerBanner{
+			display: inline-block;
+			float: left;
+			width: 100%;
+			height: 652px;
+			/*background: pink;*/
+			/*margin-right: 1%;*/
+			position: relative;
+		}
+
+		/*Imagen*/
+		#imgBan01{
+			background-image: url(../img/banner_img01.jpg);
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+
+		#imgBan02{
+			background-image: url(../img/banner_img02.jpg);
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+
+		#imgBan03{
+			background-image: url(../img/banner_img03.jpg);
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+
+		.textBanBox h2{
+			padding-top: 6px;
+			font-size: 60px;
+			color: white;
+			font-family: arial;
+			font-weight: bold;
+		}
+
+		.textBanBox p{
+			padding-top: 6px;
+			color: white;
+			font-family: arial;
+			/*font-weight: bold;*/
+		}
+
+		#imgBan01 .textBanBox{
+			position: absolute;
+  			/*left: 0;
+  			margin-left: 2.5%;
+  			margin-top: 10%;*/
+		}
+
+		#imgBan01 .rectangleBanBox{
+			position: absolute;
+			/*background-color: #293063;
+  			opacity: 0.8;
+  			left: 0;
+  			margin-top: 10%;
+  			height: 100px;
+  			width: 450px;*/
+		}
+
+		#imgBan02 .textBanBox{
+			position: absolute;
+  			left: 0;
+  			top: 0;
+  			margin-left: 1.8%;
+  			text-align: left;
+  			line-height: 50%;
+		}
+
+		#imgBan02 .rectangleBanBox{
+			/*position: absolute;
+			background-color: #293063;
+  			opacity: 0.8;
+  			left: 0;
+  			top:0;
+  			margin-top: 16%;
+  			height: 100px;
+  			width: 360px;*/
+		}
+
+		#imgBan03 .textBanBox{
+			position: absolute;
+  			right: 0;
+  			margin-right: 2.5%;
+  			margin-top: 15%;
+  			text-align: right;
+		}
+
+		#imgBan03 .rectangleBanBox{
+			/*position: absolute;
+			background-color: #293063;
+  			opacity: 0.8;
+  			right: 0;
+  			margin-top: 10%;
+  			height: 100px;
+  			width: 450px;*/
+		}
+
+
+/*Botones de los servicios*/
+.containerBtnServices{
+	width: 100%;
+	/*height: 650px;*/
+	margin-top: 20px;
+
+	/*Flex*/
+	display: flex;
+
+	flex-wrap: wrap;
+	flex-direction: row;	
+
+	justify-content: center;
+	align-items: center;
+}
+
+.btnService{
+	background-color: white;
+	color: #00155C;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	box-shadow: 10px 10px 10px grey;
+
+	height: 220px;
+	margin: 40px;
+	padding-top: 5px;
+
+	flex: 0 1 355px;
+}
+
+.iconServices{
+	height: 100px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5px;
+}
+
+.iconServices:hover{
+	transform: scale(1.1);
+	transition: all ease-in-out 200ms;
+	-webkit-transition: all ease-in-out 200ms;
+	-moz-transition: all ease-in-out 200ms;
+	-o-transition: all ease-in-out 200ms;
+}
+
+/*Paginas internas*/
+	/*Sobre mi*/
+	.containerAbout{
+		color: #00124B;
+		text-align: justify;
+	  	text-justify: inter-word;
+		font-size: 20px;
+		margin: 20px;
+
+		/* Flexbox */
+		display: flex;
+		flex-flow:row wrap;
+		justify-content:space-around;
+		align-items: center;
+	}
+
+	.containerAbout div {
+		/*background-color: purple;*/
+		/*border: 5px white solid;*/
+		padding: 10px;
+		color:  #00124B;
+	}
+
+	.containerAbout div:nth-child(1) {
+		flex-basis: 15%;
+	}
+
+	.containerAbout div:nth-child(2) {
+		flex-basis: 70%;
+	}
+
+	.containerAbout div:nth-child(3) {
+		flex-basis: 50%;
+		margin-top: 30px;
+	}
+
+	.containerAbout div:nth-child(4) {
+		flex-basis: 15%;
+		margin-top: 30px;
+	}
+
+	.containerAbout img {
+		margin: 0 40px;
+		max-height: 250px;
+	}
+
+	.containerAbout img:nth-child(2){
+		max-height: 220px; 
+	}
+
+	/*Contacto*/
+	.containerContact{
+		width: 100%;
+		height: 368px;
+		color: #00124B;
+		text-align: justify;
+	  	text-justify: inter-word;
+		font-size: 30px;
+		margin: 50px 0;
+		/*background-color: green;
+		color: white;*/
+
+		/* Flexbox */
+		display: flex;
+		flex-flow:row nowrap;
+		justify-content:center;
+		align-items: center;
+	}
+
+	.containerContact div {
+		/*background-color: purple;
+		border: 5px white solid;
+		padding: 10px;*/
+		margin: 0 5%;
+		color: #00124B;
+		
+		display: flex;
+		justify-content:center;
+		align-items: center;
+	}
+
+	.containerContact div img {
+		margin-right: 20px;
+	}
+
+	/*Banner*/
+	.containerServicios{
+		display: inline-block;
+		float: left;
+		width: 100%;
+		height: 652px;
+		/*background: pink;*/
+		/*margin-right: 1%;*/
+		position: relative;
+	}
+
+	#img01{
+		background-image: url(../img/banner_img01.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	/*Servicios*/
+	.containerServices{
+		width: 100%;
+		height: 652px;
+		background-color: #F7F7F7;
+		position: relative;
+
+		display: flex;
+  		flex-direction: column;
+  		align-items: flex-start;
+
+  		flex-wrap: wrap;
+	}
+
+	#imgServ01{
+		background-image: url(../img/Services_Web.png);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	#imgServ02{
+		background-image: url(../img/Services_Branding.png);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	#imgServ03{
+		background-image: url(../img/Services_Foto.png);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	#imgServ04{
+		background-image: url(../img/Services_Video.png);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	#imgServ05{
+		background-image: url(../img/Services_Stream.png);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.textServBox h2{
+		padding-top: 6px;
+		font-size: 72px;
+		color: #00155C;
+		font-family: arial;
+		font-weight: bold;
+		margin: 50px 0 0 0;
+	}
+
+	.textServBox p{
+		font-size: 24px;
+		color: #00155C;
+		font-family: arial;
+		font-weight: bold;
+	}
+
+	.textServBox{
+		align-self: flex-start;
+		padding-left: 3%;
+		width: 450px;
+
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#imgServ04 .textServBox{
+		align-self: flex-end;
+	}
+
+	.rectangleServBox{
+		background-color: white;
+  		opacity: 0.8;
+  		margin-bottom: 3%;
+  		margin-right: 3%;
+  		height: 150px;
+  		width: 750px;
+  		border-radius: 30px;
+
+  		align-self: flex-end;
+  		margin-top: auto;
+
+  		display: flex;
+		flex-wrap: wrap;
+	}
+
+  	.rectangleServBox ul{
+		text-decoration: none;
+  		color: #00155C;
+  		font-size: 25px;
+  		height: 100px;
+  		width: 550px;
+  		/*line-height: 90%;*/
+
+  		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+	.rectangleServBox ul li{
+  		padding: 2px;
+  		font-weight: bold;
+
+  		display: flex;
+		flex-wrap: wrap;
+  	}
+
+  	/*Portafolio*/
+	.containerPortf{
+	width: 100%;
+	height: auto;
+	/*background: #F7F7F7;*/
+	padding: 40px 10px 20px 10px;
+	/*min-height: 407px;*/
+	/*border: 10px solid #2c3e50;*/
+	/*margin: 20px;*/
+
+	transition: 5s;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	justify-content: center;
+}
+
+.containerPortf img{
+	max-width: 100%;
+}
+
+.element{
+	color: #fff;
+	margin: 20px;
+	width: 320px;
+	/*height: 200px;*/
+	/*background: #e67e22;*/
+	text-align: center;
+}
+
+.element:hover {
+	filter: grayscale(50%);
+	transition: all ease-in-out 200ms;
+	-webkit-transition: all ease-in-out 200ms;
+	-moz-transition: all ease-in-out 200ms;
+	-o-transition: all ease-in-out 200ms;
+}
+
+/*Footer*/
+footer {
+	background:#00155C;
+	width: 100%;
+	padding:20px;
+	/*margin-top: 20px;*/
+ 
+	/* Flexbox */
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+ 
+footer .social {
+	/*background:#e67e22;*/
+	color: white;
+	margin-left: 15%;
+	padding-top: 20px;
+
+	font-weight: bold;
+	text-align: center;
+	font-size: 18px;
+}
+ 
+footer .social img {
+	color:#fff;
+	padding: 10px;
+	display: inline-block;
+	height: 40px;
+	padding-top: 15px;
+}
+
+footer .social a {
+	text-decoration: none;
+	height: 70px;
+	line-height: 70px;
+}
+
+footer .copyr {
+	/*background:#c0392b;*/
+	color: white;
+	text-align: right;
+	font-size: 16px;
+	line-height: 50%;
+}
+
+
+@media (max-width: 991px) {
+
+/*Header*/
+header{
+	padding: 0 20px;
+}
+.menu-toggle{
+	display: block;
+}
+header nav{
+	position: absolute;
+	width: 100%;
+	height: calc(100vh 50px);
+	background: #333;
+	top: 70px;
+	left: -100%;
+	transition: 0.5s;
+}
+header nav.active{
+	left: 0;
+}
+header nav ul{
+	display: block;
+	text-align: center;
+	background: #00155C;
+}
+header nav ul li.sub-menu:before{
+	color: white;
+}
+header nav ul li a{
+	border-bottom: 1px solid rgba (0,0,0,.2);
+	color: white;
+}
+header nav ul li.active ul{
+	position: relative;
+	background: #003e6f;
+}
+header nav ul li ul li{
+	width: 100%;
+}
+
+/*Banner*/
+.containerBanner{
+	display: inline-block;
+	float: left;
+	width: 100%;
+	height: 570px;
+	position: relative;
+}
+
+.textBanBox h2{
+	padding-top: 6px;
+	font-size: 48px;
+	color: white;
+	font-family: arial;
+	font-weight: bold;
+}
+
+#imgBan01 .textBanBox{
+	position: absolute;
+}
+
+#imgBan02 .textBanBox{
+	position: absolute;
+  	left: 0;
+  	top: 0;
+  	margin-left: 2%;
+  	text-align: left;
+  	line-height: 100%;
+}
+
+#imgBan03 .textBanBox{
+	position: absolute;
+  	right: 0;
+  	margin-right: 2.5%;
+  	margin-top: 20%;
+  	text-align: right;
+}
+
+/*Paginas internas*/
+	/*Sobre mi*/
+	.containerAbout div:nth-child(3) {
+		flex-basis: 70%;
+		order: 4;
+	}
+
+	/*Contacto*/
+	.containerContact{
+		width: 100%;
+		height: 400px;
+		font-size: 20px;
+
+	/*Servicios*/
+	.containerServices{
+		width: 100%;
+		height: 500px;
+		background-color: #F7F7F7;
+		position: relative;
+
+		display: flex;
+  		flex-direction: column;
+  		align-items: flex-start;
+
+  		flex-wrap: wrap;
+	}
+
+	#imgServ01{
+		background-image: url(../img/Services_Web.png);
+		background-size: cover;
+		background-position: 25% 75%;
+		background-repeat: no-repeat;
+	}
+
+	.textServBox h2{
+		padding-top: 6px;
+		font-size: 60px;
+		margin: 50px 0 0 0;
+	}
+
+	.textServBox p{
+		font-size: 20px;
+	}
+
+	.rectangleServBox{
+  		height: 120px;
+  		width: 550px;
+  		border-radius: 30px;
+
+  		align-self: center;
+	}
+
+	.rectangleServBox ul{
+  		font-size: 20px;
+  		height: 100px;
+  		width: 550px;
+	}
+}
+
+@media (max-width: 768px) {
+
+/*Banner*/
+.containerBanner{
+	height: 570px;
+}
+
+.textBanBox h2{
+	font-size: 40px;
+}
+
+#imgBan02 .textBanBox{
+  	margin-left: 6%;
+  	text-align: left;
+}
+#imgBan03 .textBanBox{
+  	margin-right: 4%;
+  	margin-top: 40%;
+  	text-align: right;
+}
+
+/*Paginas internas*/
+	/*Sobre mi*/
+	.containerAbout img {
+		max-height: 180px;
+	}
+	.containerAbout img:nth-child(2){
+		max-height: 150px; 
+	}
+
+	/*Contacto*/
+	.containerContact{
+		height: 500px;
+		font-size: 20px;
+		margin: 50px 0;
+
+		flex-wrap: wrap;
+		justify-content:space-around;
+	}
+
+	.containerContact div {
+		margin-top: 20px;
+
+	}
+
+	/*Servicios*/
+	.containerServices{
+		width: 100%;
+		height: 500px;
+		background-color: #F7F7F7;
+		position: relative;
+
+		display: flex;
+  		flex-direction: column;
+  		align-items: flex-start;
+
+  		flex-wrap: wrap;
+	}
+
+	#imgServ01{
+		background-image: url(../img/Services_Web.png);
+		background-size: cover;
+		background-position: 25% 75%;
+		background-repeat: no-repeat;
+	}
+
+	.textServBox h2{
+		padding-top: 6px;
+		font-size: 48px;
+		margin: 50px 0 0 0;
+	}
+
+	.textServBox{
+		align-self: flex-start;
+		padding-left: 3%;
+		width: 300px;
+
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.textServBox p{
+		font-size: 16px;
+	}
+
+	.rectangleServBox{
+  		height: 120px;
+  		width: 450px;
+  		border-radius: 30px;
+
+  		align-self: center;
+	}
+
+	.rectangleServBox ul{
+  		font-size: 16px;
+  		height: 100px;
+  		width: 550px;
+	}
+
+/*Footer*/
+footer {
+	flex-direction: column;
+}
+ 
+footer .social {
+	margin-left: 0;
+	font-size: 24px;
+}
+
+
+footer .copyr {
+	text-align: center;
+	font-size: 20px;
+}
+
+@media (max-width: 480px) {
+/*Banner*/
+.containerBanner{
+	height: 570px;
+}
+
+.textBanBox h2{
+	font-size: 30px;
+}
+
+#imgBan02 .textBanBox{
+  	margin-left: 6%;
+  	text-align: left;
+}
+#imgBan03 .textBanBox{
+  	margin-right: 4%;
+  	margin-top: 50%;
+  	text-align: right;
+}
+
+/*Paginas internas*/
+	/*Sobre mi*/
+	.containerAbout img {
+		max-height: 120px;
+	}
+	.containerAbout img:nth-child(2){
+		max-height: 90px; 
+	}
+
+	/*Servicios*/
+	.containerServices{
+		width: 100%;
+		height: 711px;
+		background-color: #F7F7F7;
+		position: relative;
+
+		display: flex;
+  		flex-direction: column;
+  		align-items: flex-start;
+
+  		flex-wrap: wrap;
+	}
+
+	#imgServ01{
+		background-image: url(../img/tel/Services_Web.png);
+		background-size: cover;
+		background-position: right-top;
+		background-repeat: no-repeat;
+	}
+
+	#imgServ02{
+		background-image: url(../img/tel/Services_Branding.png);
+		background-size: cover;
+		background-position: right-top;
+		background-repeat: no-repeat;
+	}
+
+	#imgServ03{
+		background-image: url(../img/tel/Services_Foto.png);
+		background-size: cover;
+		background-position: right-top;
+		background-repeat: no-repeat;
+	}
+
+	#imgServ04{
+		background-image: url(../img/tel/Services_Video.png);
+		background-size: cover;
+		background-position: right-top;
+		background-repeat: no-repeat;
+	}
+
+	#imgServ05{
+		background-image: url(../img/tel/Services_Stream.png);
+		background-size: cover;
+		background-position: right-center;
+		background-repeat: no-repeat;
+	}
+
+	.textServBox h2{
+		padding-top: 6px;
+		font-size: 40px;
+		margin: 40px 0 0 0;
+	}
+
+	.textServBox{
+		align-self: flex-start;
+		/*text-align: center;*/
+		padding-left: 8%;
+		width: 300px;
+
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.textServBox p{
+		font-size: 20px;
+	}
+
+	.rectangleServBox{
+  		height: 210px;
+  		width: 320px;
+  		border-radius: 30px;
+
+  		align-self: center;
+	}
+
+	.rectangleServBox ul{
+  		font-size: 20px;
+  		height: 180px;
+  		width: 320px;
+	}
+	
+/*Footer*/	
+footer .copyr {
+	font-size: 15px;
+	}
+
+}
+
+
+}

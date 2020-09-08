@@ -7,7 +7,7 @@
     <title>Portafolio</title>
     
     <!--Meta tags-->
-    <meta name="Description" content="Marco Hernández es un Diseñador Digital que ofrece servicios de Diseño Web, Branding, Edición de Video y Fotografía"/>
+    <meta name="Description" content="Marco Hernández es un Diseñador Digital que ofrADe servicios de Diseño Web, Branding, Edición de Video y Fotografía"/>
     <meta name="keywords" content="mhd, marcohernandezdesign, marcohernandezdiseñador, marco hernandez, diseño, diseño web, diseño digital, fotografia, fotografía, video, edicion, edición, branding, logotipos, logotipo, logo, edición de video, edición de fotografía, diseño méxico, méxico, mexico, celaya, guanajuato, bajio, design">
 
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -25,52 +25,43 @@
 <div class="container">
     <?php include 'includes/header.php';?>
 
+    <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
+        <a href="portafolio.php">
+            <div style="padding-top: 50px;">
+                Regresar
+            </div>
+        </a>
+    </div>
+
 <div class="containerPortf">
-    
+
     <div class="element">
-        <a href="BeefCapital.php">
-            <img src="img/portf/BC_Logo.jpg">
+        <a href="img/portf/DrQi01.jpg" data-lightbox="mygallery" data-title="ASDFASDF">
+            <img src="img/portf/DrQi01.jpg">
         </a>
     </div>
     <div class="element">
-        <a href="ClementeBarberias.php">
-            <img src="img/portf/CB_Logo.jpg">
+        <a href="img/portf/DrQi02.jpg" data-lightbox="mygallery" data-title="ASDFASDF">
+            <img src="img/portf/DrQi02.jpg">
         </a>
     </div>
     <div class="element">
-        <a href="BetaProcesos.php">
-            <img src="img/portf/BP_Logo.jpg">
+        <a href="img/portf/DrQi03.jpg" data-lightbox="mygallery" data-title="ASDFASDF">
+            <img src="img/portf/DrQi03.jpg">
         </a>
     </div>
-    <div class="element">
-        <a href="DrQi.php">
-            <img src="img/portf/DrQi_Logo.jpg">
-        </a>
-    </div>
-    <div class="element">
-        <a href="FitimeStore.php">
-            <img src="img/portf/FS.jpg">
-        </a>
-    </div>
-    <div class="element">
-        <a href="RavenRaids.php">
-            <img src="img/portf/RR.jpg">
-        </a>
-    </div>
-    <div class="element">
-        <a href="EcoContenedores.php">
-            <img src="img/portf/EC.jpg">
-        </a>
-    </div>
-    <div class="element">
-        <a href="Fuppac.php">
-            <img src="img/portf/FP.jpg">
-        </a>
-    </div>
-    
     
 
 </div>
+
+<div style="width: 100%; display: flex; align-items: center; justify-content: center;">
+            <div style="width: 50%; text-align: justify; text-justify: inter-word; color: #00124B; font-size: 20px; margin: 30px;">
+                <b>2019. Dr. Qi (Culiacán, Sinaloa. México) - </b>Diseño de publicidad digital para redes sociales.
+                <p>
+                    <b>Facebook: </b><a href="https://www.facebook.com/DoctorQi" target="_blank">https://www.facebook.com/DoctorQi</a>
+                </p>
+            </div>
+    </div>
 
 
     <?php include 'includes/footer.php';?>

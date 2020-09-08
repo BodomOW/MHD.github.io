@@ -507,7 +507,7 @@ header nav ul li a.active{
 	color: #fff;
 	margin: 20px;
 	width: 320px;
-	/*height: 200px;*/
+	/*max-width: 1280px;*/
 	/*background: #e67e22;*/
 	text-align: center;
 }

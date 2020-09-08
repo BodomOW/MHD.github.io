@@ -30,7 +30,7 @@
             <img src="img/sm_Marco.png">
         </div>
         <div> 
-            <p>Mi nombre es Marco Alejandro Hernández Villalobos, tengo 25 años y soy Diseñador Digital.
+            <p>Mi nombre es Marco Alejandro Hernández Villalobos, tengo 26 años y soy Diseñador Digital.
             </p>
             
             <p>Nací en Juchitán de Zaragoza, Oaxaca; pero actualmente me encuentro viviendo en Celaya, Guanajuato.</p>
@@ -41,7 +41,7 @@
         </div>
         
         <div>
-            <p>En mis ratos libres me gusta jugar videojuegos, ya sea casual o competitivo. Actualmente soy coach de el equipo semi-profesional Raven Raids.</p>
+            <p>En mis ratos libres me gusta jugar videojuegos. Actualmente soy Coach del equipo semi-profesional Raven Raids.</p>
             
             <p>También toco el teclado, disfruto mucho de poder sacar mis canciones favoritas en ese instrumento.</p>
             

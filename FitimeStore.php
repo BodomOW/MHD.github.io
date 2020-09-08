@@ -46,11 +46,6 @@
         </a>
     </div>
     <div class="element">
-        <a href="img/portf/FS02_Big.jpg" data-lightbox="mygallery" data-title="Sesión en exterior">
-            <img src="img/portf/FS02.jpg">
-        </a>
-    </div>
-    <div class="element">
         <a href="img/portf/FS03_Big.jpg" data-lightbox="mygallery" data-title="Sesión en exterior">
             <img src="img/portf/FS03.jpg">
         </a>
@@ -66,33 +61,8 @@
         </a>
     </div>
     <div class="element">
-        <a href="img/portf/FS06_Big.jpg" data-lightbox="mygallery" data-title="Fitime Store">
-            <img src="img/portf/FS06.jpg">
-        </a>
-    </div>
-    <div class="element">
-        <a href="img/portf/FS07_Big.jpg" data-lightbox="mygallery" data-title="Fitime Store">
-            <img src="img/portf/FS07.jpg">
-        </a>
-    </div>
-    <div class="element">
         <a href="img/portf/FS08_Big.jpg" data-lightbox="mygallery" data-title="Fitime Store">
             <img src="img/portf/FS08.jpg">
-        </a>
-    </div>
-    <div class="element">
-        <a href="img/portf/FS09_Big.jpg" data-lightbox="mygallery" data-title="Fitime Store">
-            <img src="img/portf/FS09.jpg">
-        </a>
-    </div>
-    <div class="element">
-        <a href="img/portf/FS10_Big.jpg" data-lightbox="mygallery" data-title="Fitime Store">
-            <img src="img/portf/FS10.jpg">
-        </a>
-    </div>
-    <div class="element">
-        <a href="img/portf/FS11_Big.jpg" data-lightbox="mygallery" data-title="Fitime Store">
-            <img src="img/portf/FS11.jpg">
         </a>
     </div>
     <div class="element">
@@ -111,33 +81,8 @@
         </a>
     </div>
     <div class="element">
-        <a href="img/portf/FS15_Big.jpg" data-lightbox="mygallery" data-title="Fitime Store">
-            <img src="img/portf/FS15.jpg">
-        </a>
-    </div>
-    <div class="element">
-        <a href="img/portf/FS16_Big.jpg" data-lightbox="mygallery" data-title="Fitime Store">
-            <img src="img/portf/FS16.jpg">
-        </a>
-    </div>
-    <div class="element">
-        <a href="img/portf/FS17_Big.jpg" data-lightbox="mygallery" data-title="Fitime Store">
-            <img src="img/portf/FS17.jpg">
-        </a>
-    </div>
-    <div class="element">
         <a href="img/portf/FS18_Big.jpg" data-lightbox="mygallery" data-title="Fitime Store">
             <img src="img/portf/FS18.jpg">
-        </a>
-    </div>
-    <div class="element">
-        <a href="img/portf/FS19_Big.jpg" data-lightbox="mygallery" data-title="Fitime Store">
-            <img src="img/portf/FS19.jpg">
-        </a>
-    </div>
-    <div class="element">
-        <a href="img/portf/FS20_Big.jpg" data-lightbox="mygallery" data-title="Fitime Store">
-            <img src="img/portf/FS20.jpg">
         </a>
     </div>
     <div class="element">

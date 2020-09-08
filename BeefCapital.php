@@ -36,23 +36,18 @@
 <div class="containerPortf">
 
     <div class="element">
-        <a href="img/portf/AD.jpg" data-lightbox="mygallery" data-title="Sitio Web para la firma de abogados Adsertor">
-            <img src="img/portf/AD.jpg">
+        <a href="img/portf/BC01.jpg" data-lightbox="mygallery" data-title="ASDFASDF">
+            <img src="img/portf/BC01.jpg">
         </a>
     </div>
     <div class="element">
-        <a href="img/portf/AD04_Big.jpg" data-lightbox="mygallery" data-title="Página de Inicio">
-            <img src="img/portf/AD04.jpg">
+        <a href="img/portf/BC02.jpg" data-lightbox="mygallery" data-title="ASDFASDF">
+            <img src="img/portf/BC02.jpg">
         </a>
     </div>
     <div class="element">
-        <a href="img/portf/AD02_Big.jpg" data-lightbox="mygallery" data-title="Dashboard">
-            <img src="img/portf/AD02.jpg">
-        </a>
-    </div>
-    <div class="element">
-        <a href="img/portf/AD03_Big.jpg" data-lightbox="mygallery" data-title="Página de Proyectos">
-            <img src="img/portf/AD03.jpg">
+        <a href="img/portf/BC03.jpg" data-lightbox="mygallery" data-title="ASDFASDF">
+            <img src="img/portf/BC03.jpg">
         </a>
     </div>
     
@@ -61,9 +56,9 @@
 
 <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
             <div style="width: 50%; text-align: justify; text-justify: inter-word; color: #00124B; font-size: 20px; margin: 30px;">
-                <b>2019. Adsertor (Ciudad de México, CDMX. México) - </b>Se realizó el diseño del Sitio Web para la firma de abogados. Sirve como plataforma para que los clientes y abogados puedan acceder con facilidad a los documentos del caso y sepan en que etapa se encuentran.
+                <b>2020. Beef Capital (Celaya, Guanajuato. México) - </b>Diseño de publicidad digital para redes sociales.
                 <p>
-                    <b>Facebook: </b><a href="https://www.facebook.com/Adsertorabogados" target="_blank">https://www.facebook.com/Adsertorabogados</a>
+                    <b>Facebook: </b><a href="https://www.facebook.com/beefcapitalcelaya" target="_blank">https://www.facebook.com/beefcapitalcelaya</a>
                 </p>
             </div>
     </div>

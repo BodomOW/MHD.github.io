@@ -200,7 +200,7 @@ header nav ul li a.active{
 			position: absolute;
   			right: 0;
   			margin-right: 2.5%;
-  			margin-top: 15%;
+  			margin-top: 30%;
   			text-align: right;
 		}
 
@@ -642,7 +642,7 @@ header nav ul li ul li{
 	position: absolute;
   	right: 0;
   	margin-right: 2.5%;
-  	margin-top: 20%;
+  	margin-top: 40%;
   	text-align: right;
 }
 
@@ -722,7 +722,7 @@ header nav ul li ul li{
 }
 #imgBan03 .textBanBox{
   	margin-right: 4%;
-  	margin-top: 40%;
+  	margin-top: 55%;
   	text-align: right;
 }
 
@@ -836,7 +836,7 @@ footer .copyr {
 }
 #imgBan03 .textBanBox{
   	margin-right: 4%;
-  	margin-top: 50%;
+  	margin-top: 80%;
   	text-align: right;
 }
 

@@ -24,7 +24,31 @@
 
 <body>
 <div class="container">
-    <?php include 'includes/header.php';?>
+   <header>
+    <a href="index.html"><img src="img/logo.svg" alt="MHD logo" class="logo"></a>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobre.html">Sobre mí</a></li>
+            <li class="sub-menu"><a href="#">Servicios</a>
+                <ul>
+                    <li><a href="servicio_web.html">Diseño web</a></li>
+                    <li><a href="servicio_branding.html">Branding</a></li>
+                    <li><a href="servicio_foto.html">Fotografía</a></li>
+                    <li><a href="servicio_video.html">Video</a></li>
+                    <li><a href="servicio_stream.html">Streaming</a></li>
+                </ul>
+            </li> 
+            <li><a href="portafolio.html">Portafolio</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="menu-toggle">
+        <i class="fa fa-bars aria" hidden="true"></i>
+    </div>
+
+</header>
 
     <!--Carousel-->
     <main class="containerBanner">
@@ -74,37 +98,59 @@
     <div class="containerBtnServices">
         <div class="btnService">
             <h2>Diseño Web</h2>
-            <a href="servicio_web.php">
+            <a href="servicio_web.html">
                 <img src="img/icon_web.svg" class="iconServices">
             </a>
         </div>
         <div class="btnService">
             <h2>Branding</h2>
-            <a href="servicio_branding.php">
+            <a href="servicio_branding.html">
                 <img src="img/icon_branding.svg" class="iconServices">
             </a>
         </div>
         <div class="btnService">
             <h2>Fotografía</h2>
-            <a href="servicio_foto.php">
+            <a href="servicio_foto.html">
                 <img src="img/icon_foto.svg" class="iconServices">
             </a>
         </div>
         <div class="btnService">
             <h2>Video</h2>
-            <a href="servicio_video.php">
+            <a href="servicio_video.html">
                 <img src="img/icon_video.svg" class="iconServices">
             </a>
         </div>
         <div class="btnService">
             <h2>Streaming</h2>
-            <a href="servicio_stream.php">
+            <a href="servicio_stream.html">
                 <img src="img/icon_stream.svg" class="iconServices">
             </a>
         </div>
     </div>
 
-    <?php include 'includes/footer.php';?>
+    <footer>
+    <div class="social">
+        <div style="font-weight: bold; text-align: center; font-size: 18px;">Redes Sociales</div>
+            <a href="https://www.instagram.com/marcohernandezdesign/" target="_blank">
+                <img src="img/icon_instagram.svg" alt="Logo de Instagram">
+            </a>
+            <a href="https://dribbble.com/MarcoHernandezDesign" target="_blank">
+                <img src="img/icon_dribbble.svg" alt="Logo de Dribbble">
+            </a>
+            <a href="https://www.behance.net/MarcoHernandezDesign" target="_blank">
+                <img src="img/icon_behance.svg" alt="Logo de Behance">
+            </a>
+    </div>
+
+    <div class="copyr">
+            <p style="font-style: italic; font-weight: bold;">Marco Hernández | Diseñador Digital</p>
+            <p>461-115-7999</p>
+            <p>mh94.design@gmail.com</p>
+            <br><br>
+            <p>WWW.MHD.COM.MX</p>
+    </div>
+
+</footer>
 </div>
 
 

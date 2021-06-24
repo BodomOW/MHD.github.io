@@ -1,121 +1,141 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Portafolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Portafolio</title>
 
     <!--CSS-->
-    <link rel="stylesheet" type="text/css" href= "css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!--Meta tags-->
+    <meta name="Description" content="Marco Hernandez es un Diseñador Digital especializado en Diseño Web y Fotografia"/>
+    <meta name="keywords" content="mhd, marcohernandezdesign, marcohernandezdiseñador, marco hernandez, diseño, diseño web, diseño digital, fotografia, fotografía, diseño méxico, mexico, celaya, guanajuato, design, webdesign">
+
+    <!--Icon-->
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon" />
 
 </head>
 <body>
 
-<!-- nav -->
-<nav>
-  <ul class="nav-list">
-    <li class="nav-item"> 
-        <a href="index.html"><img src="img/logo.png" style="max-width: 40px;">
-        </a>
-    </li>
-    <li class="nav-item">
-      <a href="index.html">Inicio</a>
-    </li>
-    <li class="nav-item">
-      <a href="portafolio.html">Portafolio</a>
-    </li>
-    <li class="nav-item">
-      <a href="sobre.html">Sobre mí</a>
-    </li>
-    <li class="nav-item">
-      <a href="index.html#contactame">Contactame</a>
-    </li>
-  </ul>
-</nav>
+	<div class="navbar">
+        <div class="container">
+            <a href="index.html"><img src="img/logo.svg" class="logo"></a>
 
-    <section class="containerPortf">
-    
-    <div class="element">
-        <a href="fitimestore.html">
-            <img src="img/portf/FS_01.png">
-        </a>
-    </div>
-    <div class="element">
-        <a href="beefcapital.html">
-            <img src="img/portf/BC_01.jpg">
-        </a>
-    </div>
-    <div class="element">
-        <a href="clementebarberias.html">
-            <img src="img/portf/CB_01.jpg">
-        </a>
-    </div>
-    <div class="element">
-        <a href="betaprocesos.html">
-            <img src="img/portf/BP_00.png">
-        </a>
-    </div>
-    <div class="element">
-        <a href="ecocontenedores.html">
-            <img src="img/portf/EC_01.png">
-        </a>
-    </div>
-    
-    
+            <img id="mobile-cta" class="mobile-menu" src="img/menu.svg" alt="Open Navigation">
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="img/exit.svg" alt="Close Navigation">
 
-</section>
+                <ul class="primary-nav">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="portafolio.html">Portafolio</a></li>
+                    <li><a href="sobre.html">Sobre Mí</a></li>
+                    <li><a href="index.html#contactame">Contactame</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+	<section class="portfolio-section">
+        <div class="container">
+            <ul>
+                <li class="list active" data-filter="all">Todo</li>
+                <li class="list" data-filter="web">Web</li>
+                <li class="list" data-filter="foto">Fotografía</li>
+            </ul>
+
+        <div class="product">
+            <div class="itemBox" data-item="web"><a href="fitimestore.html"><img src="img/portf/FS_01.png"></a></div>
+            <div class="itemBox" data-item="foto"><a href="beefcapital.html"><img src="img/portf/BC_01.jpg"></a></div>
+            <div class="itemBox" data-item="foto"><a href="drqi.html"><img src="img/portf/DQ_01.jpg"></a></div>
+            <div class="itemBox" data-item="foto"><a href="clementebarberias.html"><img src="img/portf/CB_01.jpg"></a></div>
+            <div class="itemBox" data-item="foto"><a href="betaprocesos.html"><img src="img/portf/BP_00.png"></a></div>
+            <div class="itemBox" data-item="web"><a href="ecocontenedores.html"><img src="img/portf/EC_01.png"></a></div>
+        </div>
+                
+        </div>
+    </section>
 
 
 
-<!--Footer KEK -->
+<!--Footer KEK-->
 <footer>
-    <div class="footer-content">
-        <ul class="nav-list">
-            <li class="nav-item"> 
-                <a href="index.html"><img src="img/logo_Footer.png" style="max-width: 250px;"></a>
-            </li>
-            <li class="nav-item">
-                <a href="https://www.behance.net/MarcoHernandezDesign" target="_blank"><img src="img/behance.png" class="footer_icon" style="max-width: 35px;"></a>
-            </li>
-            <li class="nav-item">
-                <a href="https://www.linkedin.com/in/marco-hernandez-62968959/" target="_blank"><img src="img/linkedIn.png" class="footer_icon" style="max-width: 35px;"></a>
-            </li>
-            <li class="nav-item">
-                <a href="#" target="_blank"><img src="img/fiverr.png" class="footer_icon" style="max-width: 35px;"></a>
-            </li>
-            <li class="nav-item">
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mh94.design@gmail.com" target="_blank"><img src="img/gmail.png" class="footer_icon" style="max-width: 35px;"></a>
-            </li>
-            <li class="nav-item">
-                <a href="https://api.whatsapp.com/send?phone=4611157999" target="_blank"><img src="img/whatsapp.png" class="footer_icon" style="max-width: 40px;"></a>
-            </li>
-            <li class="nav-item">
-                <a href="https://www.instagram.com/marcohernandezdesign/" target="_blank"><img src="img/instagram.png" class="footer_icon" style="max-width: 40px;"></a>
-            </li>
-        </ul>
-    <div class="footer-nav">
-        <ul class="nav-list">
-            <li class="nav-item"> 
-                <a href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-                <a href="portafolio.html">Portafolio</a>
-            </li>
-            <li class="nav-item">
-                <a href="sobre.html">Sobre mí</a>
-            </li>
-            <li class="nav-item">
-                <a href="index.html#contactame">Contactame</a>
-            </li>
-            <li class="nav-item">
-                <p style="color: #005085;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 21 30">
-                <path id="Icon_material-location-on" data-name="Icon material-location-on" d="M18,3A10.492,10.492,0,0,0,7.5,13.5C7.5,21.375,18,33,18,33S28.5,21.375,28.5,13.5A10.492,10.492,0,0,0,18,3Zm0,14.25a3.75,3.75,0,1,1,3.75-3.75A3.751,3.751,0,0,1,18,17.25Z" transform="translate(-7.5 -3)" fill="#005085"/></svg>&nbsp;&nbsp;Guanajuato, Mexico&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MHD.COM.MX</p>
-            </li>
-        </ul>
+  <div class="footer-up">
+    <div class="container">
+            
+      <a href="index.html"><img src="img/logo_full.png" class="logo-footer"></a>
+
+      <ul class="nav-sm">
+        <li class="nav-sm-item"><a href="https://www.behance.net/MarcoHernandezDesign" target="_blank"><img src="img/behance.png" class="icon-footer"></a></li>
+        <li class="nav-sm-item"><a href="https://www.linkedin.com/in/marco-hernandez-62968959/" target="_blank"><img src="img/linkedIn.png" class="icon-footer"></a></li>
+        <li class="nav-sm-item"><a href="https://es.fiverr.com/share/jpEdEo" target="_blank"><img src="img/fiverr.png" class="icon-footer"></a></li>
+        <li class="nav-sm-item"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=mh94.design@gmail.com" target="_blank"><img src="img/gmail.png" class="icon-footer"></a></li>
+        <li class="nav-sm-item"><a href="https://api.whatsapp.com/send?phone=4611157999" target="_blank"><img src="img/whatsapp.png" class="icon-footer"></a></li>
+        <li class="nav-sm-item"><a href="https://www.instagram.com/marcohernandezdesign/" target="_blank"><img src="img/instagram.png" class="icon-footer"></a></li>
+      </ul>
     </div>
-    </div>
-</footer>
+  </div>
+
+  <div class="footer-down">
+    <div class="container">
+      <ul class="primary-nav">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="portafolio.html">Portafolio</a></li>
+        <li><a href="sobre.html">Sobre Mí</a></li>
+        <li><a href="index.html#contactame">Contactame</a></li>
+      </ul>
     
+      <p class="info-page">2021. Guanajuato, México.</p>
+    </div>
+  </div>
+</footer>
+
+    <script>
+
+        const mobileBtn = document.getElementById('mobile-cta')
+              nav = document.querySelector('nav')
+              mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+
+
+
+    </script>
+
+    <script>
+        let list = document.querySelectorAll('.list');
+        let itemBox = document.querySelectorAll('.itemBox');
+
+        for (let i=0; i<list.length; i++){
+            list[i].addEventListener('click', function(){
+                for (let j=0; j<list.length; j++){
+                    list[j].classList.remove('active');
+                }
+                this.classList.add('active');
+
+                let dataFilter = this.getAttribute('data-filter');
+
+                for (let k=0; k<itemBox.length; k++){
+                    itemBox[k].classList.remove('active');
+                    itemBox[k].classList.add('hide');
+
+                    if (itemBox[k].getAttribute('data-item') == dataFilter || dataFilter == "all") {
+                        itemBox[k].classList.remove('hide');
+                        itemBox[k].classList.add('active'); 
+                    }
+                }
+            })
+        }
+
+    </script>
 
 </body>
 </html>

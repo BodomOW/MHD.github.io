@@ -1,105 +1,97 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Sobre mi</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!--CSS-->
-    <link rel="stylesheet" type="text/css" href= "css/style.css">
+	<title>Sobre mí</title>
 
-    <!--JS Swiper-->
-    <script src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <!--Meta tags-->
+  <meta name="Description" content="Marco Hernandez es un Diseñador Digital especializado en Diseño Web y Fotografia"/>
+  <meta name="keywords" content="mhd, marcohernandezdesign, marcohernandezdiseñador, marco hernandez, diseño, diseño web, diseño digital, fotografia, fotografía, diseño méxico, mexico, celaya, guanajuato, design, webdesign">
+
+  <!--Icon-->
+  <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon" />
 
 </head>
 <body>
 
-<!-- nav -->
-<nav>
-  <ul class="nav-list">
-    <li class="nav-item"> 
-        <a href="index.html"><img src="img/logo.png" style="max-width: 40px;">
-        </a>
-    </li>
-    <li class="nav-item">
-      <a href="index.html">Inicio</a>
-    </li>
-    <li class="nav-item">
-      <a href="portafolio.html">Portafolio</a>
-    </li>
-    <li class="nav-item">
-      <a href="sobre.html">Sobre mí</a>
-    </li>
-    <li class="nav-item">
-      <a href="index.html#contactame">Contactame</a>
-    </li>
-  </ul>
-</nav>
+	<div class="navbar">
+        <div class="container">
+            <a href="index.html"><img src="img/logo.svg" class="logo"></a>
 
+            <img id="mobile-cta" class="mobile-menu" src="img/menu.svg" alt="Open Navigation">
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="img/exit.svg" alt="Close Navigation">
 
-    <!-- Seccion Sobre mi  -->
-    <section class="dark-section">
+                <ul class="primary-nav">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="portafolio.html">Portafolio</a></li>
+                    <li><a href="sobre.html">Sobre Mí</a></li>
+                    <li><a href="index.html#contactame">Contactame</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+	<section class="about-section">
         <div class="container">
             <div class="left-col">
-                <h1>-Sobre mí</h1>
-                <!--<img src="img/adorno_Blanco.png">-->
-                <div class="about">
-                  <p>Mi nombre es <b>Marco Hernández</b>, tengo 26 años y estudie la carrera de Diseño Digital.</p>
-                  <br>
-                  <p>Actualmente trabajo como Freelancer en las areas de Diseño Web y Fotografía.</p>
-                </div>
+                <h2>Sobre Mí</h2>
+                <p class="subhead" id="aboutMe">Mi nombre es <span>Marco Hernández</span>, tengo 26 años y estudie la carrera de Diseño Digital en la Universidad de Celaya.
+                <br><br>
+                Actualmente trabajo como Freelancer en las areas de Diseño Web y Fotografía.</p>         
             </div>
 
-            <img src="img/img_SobreMi.png" class="section-img" alt="Illustration">
+            <img src="img/img_About.png" alt="Marco" class="img-section">
         </div>
     </section>
 
-    <!-- Seccion Hobbies  -->
+  	<!-- Seccion Hobbies  -->
+  	<section class="hobbies-section">
         <div class="container">
-            <div class="heading">
-              <h1>-Hobbies</h1>
-            </div>
-                <!--<img src="img/adorno_Azul.png">-->
-                <div class="row">
-                    <div class="card">
-                      <div class="card-header">
-                        <img src="img/icon_football.png">
-                        <h1>Deportes</h1>
-                      </div>
-                      <div class="card-body">
-                        <p>
-                          Me encanta la estrategia y el atletismo que implican los deportes, en especial las MMA.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-header">
-                        <img src="img/icon_music.png">
-                        <h1>Música</h1>
-                      </div>
-                      <div class="card-body">
-                        <p>
-                          Me gusta escuchar todo tipo de Música, desde K Pop hasta Death Metal. También toco el piano.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-header">
-                        <img src="img/icon_videogame.png">
-                        <h1>Videojuegos</h1>
-                      </div>
-                      <div class="card-body">
-                        <p>
-                          De lo más lindo para hacer con los amigos. Tengo un equipo de eSports llamado Raven Raids.
-                        </p>
-                      </div>
-                    </div>
-                </div>
+            <h2>-Hobbies</h2>
+
+            <br>
+
+            <ul>
+                <li>
+                    <img src="img/icon_football.png" alt="Person">
+
+                    <h3>Deportes</h3>
+
+                    <blockquote>Me encanta la estrategia y el atletismo que implican los deportes, en especial las MMA.
+                    </blockquote>
+                </li>
+
+                <li>
+                    <img src="img/icon_music.png" alt="Person">
+
+                    <h3>Música</h3>
+
+                    <blockquote>Me gusta escuchar todo tipo de Música, desde K Pop hasta Death Metal. También toco el piano.</blockquote>
+                </li>
+
+                <li>
+                    <img src="img/icon_videogame.png" alt="Person">
+
+                    <h3>Videojuegos</h3>
+
+                    <blockquote>De lo más lindo para hacer con los amigos. Tengo un equipo de eSports llamado Raven Raids.
+                    </blockquote>
+                </li>
+            </ul>
         </div>
+    </section>
 
     <!-- Seccion Habilidades  -->
+    <section class="skills-section">
         <div class="container">
             <div class="heading">
-                <h1>-Habilidades</h1>
+                <h2>-Habilidades</h2>
                 <!--<img src="img/adorno_Azul.png">-->
                 <br>
                 <div class="container-progressbar">
@@ -173,61 +165,57 @@
                 
             </div>
 
+    </section>
 
-      </div>
-
-
-
-<!--Footer KEK -->
+<!--Footer KEK-->
 <footer>
-    <div class="footer-content">
-        <ul class="nav-list">
-            <li class="nav-item"> 
-                <a href="index.html"><img src="img/logo_Footer.png" style="max-width: 250px;"></a>
-            </li>
-            <li class="nav-item">
-                <a href="https://www.behance.net/MarcoHernandezDesign" target="_blank"><img src="img/behance.png" class="footer_icon" style="max-width: 35px;"></a>
-            </li>
-            <li class="nav-item">
-                <a href="https://www.linkedin.com/in/marco-hernandez-62968959/" target="_blank"><img src="img/linkedIn.png" class="footer_icon" style="max-width: 35px;"></a>
-            </li>
-            <li class="nav-item">
-                <a href="#" target="_blank"><img src="img/fiverr.png" class="footer_icon" style="max-width: 35px;"></a>
-            </li>
-            <li class="nav-item">
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mh94.design@gmail.com" target="_blank"><img src="img/gmail.png" class="footer_icon" style="max-width: 35px;"></a>
-            </li>
-            <li class="nav-item">
-                <a href="https://api.whatsapp.com/send?phone=4611157999" target="_blank"><img src="img/whatsapp.png" class="footer_icon" style="max-width: 40px;"></a>
-            </li>
-            <li class="nav-item">
-                <a href="https://www.instagram.com/marcohernandezdesign/" target="_blank"><img src="img/instagram.png" class="footer_icon" style="max-width: 40px;"></a>
-            </li>
-        </ul>
-    <div class="footer-nav">
-        <ul class="nav-list">
-            <li class="nav-item"> 
-                <a href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-                <a href="portafolio.html">Portafolio</a>
-            </li>
-            <li class="nav-item">
-                <a href="sobre.html">Sobre mí</a>
-            </li>
-            <li class="nav-item">
-                <a href="index.html#contactame">Contactame</a>
-            </li>
-            <li class="nav-item">
-                <p style="color: #005085;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 21 30">
-                <path id="Icon_material-location-on" data-name="Icon material-location-on" d="M18,3A10.492,10.492,0,0,0,7.5,13.5C7.5,21.375,18,33,18,33S28.5,21.375,28.5,13.5A10.492,10.492,0,0,0,18,3Zm0,14.25a3.75,3.75,0,1,1,3.75-3.75A3.751,3.751,0,0,1,18,17.25Z" transform="translate(-7.5 -3)" fill="#005085"/></svg>&nbsp;&nbsp;Guanajuato, Mexico&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MHD.COM.MX</p>
-            </li>
-        </ul>
+  <div class="footer-up">
+    <div class="container">
+            
+      <a href="index.html"><img src="img/logo_full.png" class="logo-footer"></a>
+
+      <ul class="nav-sm">
+        <li class="nav-sm-item"><a href="https://www.behance.net/MarcoHernandezDesign" target="_blank"><img src="img/behance.png" class="icon-footer"></a></li>
+        <li class="nav-sm-item"><a href="https://www.linkedin.com/in/marco-hernandez-62968959/" target="_blank"><img src="img/linkedIn.png" class="icon-footer"></a></li>
+        <li class="nav-sm-item"><a href="https://es.fiverr.com/share/jpEdEo" target="_blank"><img src="img/fiverr.png" class="icon-footer"></a></li>
+        <li class="nav-sm-item"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=mh94.design@gmail.com" target="_blank"><img src="img/gmail.png" class="icon-footer"></a></li>
+        <li class="nav-sm-item"><a href="https://api.whatsapp.com/send?phone=4611157999" target="_blank"><img src="img/whatsapp.png" class="icon-footer"></a></li>
+        <li class="nav-sm-item"><a href="https://www.instagram.com/marcohernandezdesign/" target="_blank"><img src="img/instagram.png" class="icon-footer"></a></li>
+      </ul>
     </div>
+  </div>
+
+  <div class="footer-down">
+    <div class="container">
+      <ul class="primary-nav">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="portafolio.html">Portafolio</a></li>
+        <li><a href="sobre.html">Sobre Mí</a></li>
+        <li><a href="index.html#contactame">Contactame</a></li>
+      </ul>
+    
+      <p class="info-page">2021. Guanajuato, México.</p>
     </div>
+  </div>
 </footer>
 
-    
+    <script>
+
+        const mobileBtn = document.getElementById('mobile-cta')
+              nav = document.querySelector('nav')
+              mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+
+
+
+    </script>
 
 </body>
 </html>

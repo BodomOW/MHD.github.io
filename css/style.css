@@ -99,7 +99,7 @@ nav{
        text-align: right;
     }
 
-    nav li a: hover {
+    nav ul.primary-nav li a:hover {
        font-weight: bold;
     }
 
@@ -596,10 +596,6 @@ section.hobbies-section {
     color: var(--primary-light);
     font-size: 1em;
     padding: .1em 1em;
-  }
-
-  .navbar nav a:hover{
-    color: var(--primary-colorful);
   }
 
   .navbar nav ul.primary-nav{

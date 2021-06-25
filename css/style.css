@@ -422,148 +422,166 @@ section.hobbies-section {
     padding-bottom: 1em;
   }
 
-/*Habilidades - Progress Bar*/
-  .container-progressbar{
-  display: grid;
-  height: 100%;
-  place-items: center;
-  /*background: #6665ee;*/
-  padding: 2em 0;
+/*Habilidades - Skill Bars*/
+  section.skills-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    align-items: center;
   }
 
-  .skill-bars{
-    padding: 25px 30px;
-    width: 600px;
-    background: #fff;
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
-    border-radius: 10px;
-  }
-  .skill-bars .bar{
-    margin: 20px 0;
-  }
-  .skill-bars .bar:first-child{
-    margin-top: 0px;
-  }
-  .skill-bars .bar .info{
-    margin-bottom: 5px;
-  }
-  .skill-bars .bar .info span{
-    font-weight: 500;
-    font-size: 17px;
-    opacity: 0;
-    animation: showText 0.5s 1s linear forwards;
-  }
-  @keyframes showText {
-    100%{
-      opacity: 1;
-    }
-  }
-  .skill-bars .bar .progress-line{
-    height: 10px;
-    width: 100%;
-    background: #f0f0f0;
-    position: relative;
-    transform: scaleX(0);
-    transform-origin: left;
-    border-radius: 10px;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
-                0 1px rgba(255,255,255,0.8);
-    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
-  }
-  @keyframes animate {
-    100%{
-      transform: scaleX(1);
-    }
-  }
-  .bar .progress-line span{
-    height: 100%;
-    position: absolute;
-    border-radius: 10px;
-    transform: scaleX(0);
-    transform-origin: left;
-    background: var(--primary-light);
-    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
-  }
-  .bar .progress-line.html span{
-    width: 90%;
-  }
-  .bar .progress-line.css span{
-    width: 90%;
-  }
-  .bar .progress-line.javascript span{
-    width: 50%;
-  }
-  .bar .progress-line.photoshop span{
-    width: 90%;
-  }
-  .bar .progress-line.xd span{
-    width: 80%;
-  }
-  .bar .progress-line.illustrator span{
-    width: 80%;
-  }
-  .bar .progress-line.wordpress span{
-    width: 70%;
-  }
-  .bar .progress-line.php span{
-    width: 50%;
+  section.skills-section ul li{
+    width: 45%;
   }
 
-  .progress-line span::before{
-    position: absolute;
-    content: "";
-    top: -10px;
-    right: 0;
-    height: 0;
-    width: 0;
-    border: 7px solid transparent;
-    border-bottom-width: 0px;
-    border-right-width: 0px;
-    border-top-color: #000;
-    opacity: 0;
-    animation: showText2 0.5s 1.5s linear forwards;
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 60px;
+
+    margin: 1em;
+
+    align-items: center;
   }
-  .progress-line span::after{
-    position: absolute;
-    top: -28px;
-    right: 0;
-    font-weight: 500;
-    background: #000;
-    color: #fff;
-    padding: 1px 8px;
-    font-size: 12px;
-    border-radius: 3px;
-    opacity: 0;
-    animation: showText2 0.5s 1.5s linear forwards;
+
+  .grid-item {
+    padding: 20px;
+    font-size: 2em;
   }
-  @keyframes showText2 {
-    100%{
-      opacity: 1;
+  
+  .item1 {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+  }
+
+
+  .item2, .item3{
+    font-size: .8em;
+  }
+
+  .item3{
+    text-align: right;
+  }
+  
+  .item4 {
+    grid-column: 2 / span 2;
+    grid-row: 2;
+    padding: 0;
+    margin: .3em 0 .3em .7em;
+  }
+
+  .item1 img{
+    width: 1.5em;
+  }
+
+  .bar {
+    width: 93%;
+    background-color: #ddd;
+    display: flex;
+    height: 12px;
+  }
+
+  .skills {
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    color: white;
+  }
+  
+  .html-css {
+    width: 90%; 
+    background-color: var(--primary-light); 
+    display: inline-block;
+    animation: html-css 2s ease-out;
+  }
+  
+  .photoshop {
+    width: 90%; 
+    background-color: var(--primary-light);
+    animation: photoshop 2s ease-out;
+  }
+  .javascript {
+    width: 50%; 
+    background-color: var(--primary-light);
+    animation: javascript 2s ease-out;
+  }
+  .xd {
+    width: 70%; 
+    background-color: var(--primary-light);
+    animation: xd 2s ease-out;
+  }
+  .wordpress {
+    width: 70%; 
+    background-color: var(--primary-light);
+    animation: wordpress 2s ease-out;
+  }
+  .illustrator {
+    width: 80%; 
+    background-color: var(--primary-light);
+    animation: illustrator 2s ease-out;
+  }
+  .php {
+    width: 50%; 
+    background-color: var(--primary-light);
+    animation: php 2s ease-out;
+  }
+
+  @keyframes html-css {
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 90%;
     }
   }
-  .progress-line.html span::after{
-    content: "90%";
+  @keyframes photoshop {
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 90%;
+    }
   }
-  .progress-line.css span::after{
-    content: "90%";
+  @keyframes javascript {
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 50%;
+    }
   }
-  .progress-line.javascript span::after{
-    content: "50%";
+  @keyframes xd {
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 70%;
+    }
   }
-  .progress-line.photoshop span::after{
-    content: "90%";
+  @keyframes wordpress {
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 70%;
+    }
   }
-  .progress-line.xd span::after{
-    content: "80%";
+  @keyframes illustrator {
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 80%;
+    }
   }
-  .progress-line.illustrator span::after{
-    content: "80%";
-  }
-  .progress-line.wordpress span::after{
-    content: "70%";
-  }
-  .progress-line.php span::after{
-    content: "50%";
+  @keyframes php {
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 50%;
+    }
   }
 
 
@@ -606,7 +624,20 @@ section.hobbies-section {
     font-weight: bold;
   }
 
-  
+  /*Habilidades - Skill Bars*/
+  .item2, .item3{
+    font-size: 1em;
+  }
+  .item1 img{
+    width: 2em;
+  }
+
+  .bar {
+    width: 93%;
+    background-color: #ddd;
+    display: flex;
+    height: 15px;
+  }
 
 }
 
@@ -814,4 +845,24 @@ section.hobbies-section {
         max-width: 450px;
     }
 
+    /*Habilidades - Skill Bars*/
+    .item2, .item3{
+    font-size: 1.2em;
+  }
+  .item1 img{
+    width: 2.5em;
+  }
+
+  .bar {
+    width: 93%;
+    background-color: #ddd;
+    height: 18px;
+  }
+
+  .item4 {
+    grid-column: 2 / span 2;
+    grid-row: 2;
+    padding: 0;
+    margin: .3em 8em .3em .7em;
+  }
 }

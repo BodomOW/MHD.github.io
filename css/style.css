@@ -426,13 +426,12 @@ section.hobbies-section {
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr 60px;
 
-    margin: 1em;
+    margin: 0.2em;
 
     align-items: center;
   }
 
   .grid-item {
-    padding: 20px;
     font-size: 2em;
   }
   
@@ -639,6 +638,14 @@ section.hobbies-section {
 
   section.skills-section ul li{
     width: 45%;
+  }
+
+  .grid-container {
+    margin: 1em;
+  }
+
+  .grid-item {
+    font-size: 2em;
   }
 
   .item2, .item3{

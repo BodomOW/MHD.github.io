@@ -413,11 +413,12 @@ section.hobbies-section {
     flex-wrap: wrap;
     padding: 0;
     margin: 0;
+    justify-content: center;
     align-items: center;
   }
 
   section.skills-section ul li{
-    width: 45%;
+    width: 100%;
   }
 
   .grid-container {
@@ -632,6 +633,14 @@ section.hobbies-section {
 
 
   /*Habilidades - Skill Bars*/
+  section.skills-section ul {
+    justify-content: flex-start;
+  }
+
+  section.skills-section ul li{
+    width: 45%;
+  }
+
   .item2, .item3{
     font-size: 1em;
   }

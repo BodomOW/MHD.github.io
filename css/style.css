@@ -246,6 +246,10 @@ footer{
     background: white;
 }
 
+footer .logo-footer{
+  max-height: 60px;
+}
+
     footer .nav-sm{
         display: none;
     }
@@ -744,13 +748,12 @@ section.hobbies-section {
     /*Footer 1ra Parte*/
     footer .footer-up .container{
         display: grid;
-        grid-template-columns: 180px auto;
+        grid-template-columns: 280px auto;
         align-items: center;
     }
 
     footer .logo-footer{
-        padding-left: 1.1em;
-        max-height: 50px;
+        max-height: 150px;
     }
 
 

@@ -129,6 +129,7 @@ nav{
     font-weight: bold;
     color: gray;
     letter-spacing: .3em;
+    font-size: .8em;
   }
 
   .hero-img{
@@ -247,7 +248,7 @@ footer{
 }
 
 footer .logo-footer{
-  max-height: 60px;
+  max-height: 50px;
 }
 
     footer .nav-sm{
@@ -611,6 +612,10 @@ section.hobbies-section {
 
   .navbar nav li.current a{
     font-weight: bold;
+  }
+
+  .left-col .subhead{
+    font-size: 1.2em;
   }
 
   /*Descripciond de los Proyectos*/

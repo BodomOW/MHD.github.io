@@ -184,21 +184,16 @@ section.about-section{
     }
 
     section.about-section .subhead{
+      text-transform: none;
+      font-weight: normal;
       color: var(--primary-gray200);
+      letter-spacing: .3em;
     }
 
     section.about-section .subhead span{
       color: white;
       text-transform: uppercase;
       font-weight: bold;
-    }
-
-    #aboutMe{
-        text-transform: none;
-        font-weight: normal;
-        color: var(--primary-gray100);
-        letter-spacing: .3em;
-        margin-right: 2.5em;
     }
 
     section.about-section .btn-primary {
@@ -618,7 +613,7 @@ section.hobbies-section {
     font-size: 1.2em;
   }
 
-  /*Descripciond de los Proyectos*/
+  /*Descripcion de los Proyectos*/
   .description{
     display:flex;
     flex-wrap: nowrap;
@@ -628,6 +623,11 @@ section.hobbies-section {
 
   .project-section div{
     padding:10px;
+  }
+
+  /*Sobre mi*/
+  section.about-section .subhead{
+    margin-right: 4em;
   }
 
 

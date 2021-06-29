@@ -282,6 +282,7 @@ section.portfolio-section ul li {
   padding: 12px 20px;
   margin: 5px;
   letter-spacing: 1px;
+  border-radius: .7em;
   cursor: pointer;
 }
 

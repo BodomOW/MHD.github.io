@@ -853,7 +853,7 @@ section.hobbies-section {
     }
 
     .footer-down .primary-nav a:hover{
-        color: var(--primary-colorful);
+        font-weight: bold;
     }
 
     .footer-down .primary-nav ul.primary-nav{

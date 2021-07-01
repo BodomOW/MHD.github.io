@@ -717,6 +717,10 @@ section.hobbies-section {
       margin-right: 4em;
     }
 
+    section.highlight-project-section .subhead{
+      padding-right: 2em;
+    }
+
      /*About Section*/
     section.about-section .container{
       display: flex;
